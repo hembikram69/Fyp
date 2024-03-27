@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RECPIT</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bar.css">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class=" slide_div navbar-nav bg-gradient-primary sidebar side sidebar-dark accordion" id="accordionSidebar">
+
+           
+             
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Home</span></a>
+            </li>
+           
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                ACTIVITY 
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Supplier"
+                aria-expanded="true" aria-controls="Supplier">
+                <i class="fas fa-fw fa-cog"></i>
+                <span>PAITENT ENTRY</span>
+
+
+                </a>
+              <div id="Supplier" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">PAITENT ENTRY</h6>
+                    <a class="collapse-item" href="opd1.html">OPD ENTRY</a>
+                    <a class="collapse-item" href="em.html">EMERGENCY</a>
+                </div>
+              </div>
+
+
+
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>RECIPT</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Recpit</h6>
+                        <div class=" dropright">
+                              <a class="collapse-item" href="rep.html">RECPIT ENTRY</a>
+                              <a class="collapse-item" href="#">OLD RECPIT</a>
+                              <a class="collapse-item" href="#">RECPIT SUMMARY</a>
+                          
+                          </div>
+                   </div>
+                </div>
+              <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Master-Data"
+              aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fas fa-fw fa-cog"></i>
+             <span>Master</span> </a>
+
+             
+              <div id="Master-Data" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+             <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">Master-Data</h6>
+
+
+          <div class="dropright">
+            <p  class=" collapse-item dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Account
+            </p>
+
+            <a class="collapse-item" href="#">Account Group</a>       
+              <a class="collapse-item" href="#">Account Group</a>       
+          </div>
+         
+          
+          </div>
+         </div>
+        </ul>
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content" >
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand topbar boxD mb-2">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link rounded-circle mx-5">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">                
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <img class="img-profile rounded-circle"
+                                    src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                
+                
+                <div class="row  pt-4 mx-3" >                   
+                  <div class="col-md-12  boxD   ">
+            
+                    <div class="row col-md-12 my-0 pt-4">
+                     
+                     
+                         
+                      <div class="form-group col-md-3">
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Date</span>
+                          <input type="date" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                     </div>
+            
+                     <div class="form-group col-md-4">
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" >Doctor Nmae</span>
+                        <select class="form-select " >
+                          <option selected>---- select ----</option>
+                          <option value="1">Self</option>
+                          <option value="2">dr govind</option>
+                          <option value="3">dr hari</option>
+                          <option value="3">dr ram</option>                                
+                         </select>
+                      </div>
+            
+                     </div>
+            
+                     <div class="form-group col-md-5">
+                      <div class="input-group">
+                        <label class="input-group-text" >Patient Name</label>
+                        <select class="form-select col-md-2">
+                          <option selected>Mr.</option>
+                          <option value="1">Mrs.</option>
+                          <option value="2">Ms.</option>
+                          <option value="3">Miss</option>
+                         <option value="3">Miss</option>
+                         <option value="3">Miss</option>
+                         </select>
+                        <input type="text" class="form-control " id="inputGroupFile01">
+                      </div>
+                     </div>
+            
+                      <div class="form-group col-md-2">
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" >Age</span>
+                          <input type="text" class="form-control" placeholder="Enter Age">
+                        </div>
+                     </div>
+            
+                     <div class="form-group col-md-2">
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" >Sex</span>
+                        <select class="form-select " >
+                          <option selected>Male</option>
+                          <option value="1">Femal</option>
+                          <option value="1">Others</option>
+                                                       
+                         </select>
+                      </div>
+            
+                     </div>
+            
+                     <div class="form-group col-md-3">
+                      <div class="input-group">
+                        <label class="input-group-text" >Address</label>
+                          <input type="text" class="form-control" id="inputGroupFile01">
+                      </div>
+                     </div>
+            
+                     <div class="form-group col-md-3">
+                      <div class="input-group">
+                        <label class="input-group-text" >Number</label>
+                          <input type="number" class="form-control" id="inputGroupFile01">
+                      </div>
+                     </div>
+            
+                     <div class="col-md-9">
+
+                      <table class="table">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">Service NAme</th>
+                            <th scope="col">Rate</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Add</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                     </div>
+                    
+                    <div class="col-md-3"> 
+       
+       
+                      <div class="col-md-12   boxD  ">
+                          <div class="fonn_div text-center">
+                              <p>Payemnt Details</p>
+                          </div>
+          
+                          <div class=" px-3">
+                              <form >
+                                  <div class="form-group">
+                                   <label for="exampleFormControlInput1">Service Name</label>
+                                  <select class="form-select">
+                                      <option  >Consultation</option>
+                                       <option  selected="selected">O.P.D</option>
+                                      </select>
+                                 </div>
+          
+                                  <div class="form-group ">
+                                   <label class="">Total Rate</label>
+                                   <input type="" class="form-control" >
+                                 </div>
+                                      
+                                   <div class="form-group mt-5">
+                                  
+                                   <input type="submit" value="save" class="form-control btn  BUT_DIV text-white" >
+                                 </div>
+          
+                         
+                              </form>
+          
+                              
+                          </div>
+          
+                      </div>
+                      
+                   </div>
+            
+                   </div>     
+            
+                </div>
+            </div>
+            <!-- End of Main Content -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>

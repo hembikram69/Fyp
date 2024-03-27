@@ -1,0 +1,103 @@
+body {
+	height: 100%;
+	overflow: hidden;
+	width: 100% !important;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  .backLeft {
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: #e74c3c url(/img/Digital-tool.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+  }
+  #back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -999;
+  }
+  
+  #slideBox {
+	width: 50%;
+	max-height: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin-left: 50%;
+	position: absolute;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .topLayer {
+	width: 200%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	left: -100%;
+  }
+  
+  .left {
+	width: 50%;
+	height: 100%;
+	background: #2C3034;
+	left: 0;
+	position: absolute;
+  }
+  
+  .right {
+	width: 50%;
+	height: 100%;
+	background: #dbf1fa;
+	right: 0;
+	position: absolute;
+	
+  }
+  
+  .content {
+	width: 500px;
+	padding: 10% !important;
+	margin: 0 auto;
+	top: 30%;
+	position: absolute;
+	left: 20em;
+	margin-left: -125px;
+  }
+  
+  .coll_div {
+	background-color: #03A9F4;
+	border: none;
+	padding: 5px 10px;
+	
+  }
+  
+  .back_shod{
+	padding:16px;
+	background: #fff;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+	padding: 15px;
+	border-radius: 4px;
+  }
+ .sig_div{
+	width: 500px;
+	padding: 20pxm;
+	top: 13%;
+	position: absolute;
+	left: 20em;
+	margin-left: -125px;
+ }
+  
+
+  input {
+	background: transparent;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid #000000;
+	font-size: 14px;
+	color: #000000;
+	padding: 10px;
+	margin-bottom: 20px !important;
+  }

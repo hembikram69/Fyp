@@ -1,0 +1,91 @@
+.side{
+    width: 19rem!important;
+}
+.text_div{
+    color: #3a3b45; text-decoration: none;
+}
+.slide_div{
+    width: 22rem!important;
+    height: 294px;
+    
+    overflow-x: hidden;
+    overflow-y: auto ;
+}
+.img_div{
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.aside-dark{
+    background-color: #3c6a8c;
+}
+.imo_div{
+    height: 165px !important;
+}
+.BUT_DIV{
+     background-color: #337ab7;
+}
+.boxD{
+    padding:16px;
+background: #fff;
+box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+padding: 15px;
+border-radius: 4px;
+}
+.fonn_div{
+    background-color: #337ab7 !important;
+    font-size: 22px;
+    color:#fff;
+}
+
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+
+

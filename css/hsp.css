@@ -1,0 +1,76 @@
+﻿
+.aside-dark{
+    background-color: #3c6a8c;
+}
+.imo_div{
+    height: 165px !important;
+}
+.BUT_DIV{
+     background-color: #337ab7;
+}
+.boxD{
+    padding:16px;
+background: #fff;
+box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+padding: 15px;
+border-radius: 4px;
+}
+.fonn_div{
+    background-color: #337ab7 !important;
+    font-size: 22px;
+    color:#fff;
+}
+
+.imo_div{
+    background-image: url(/img/wire-frame-image-human-body.jpg);
+    background-position: center center;
+    background-size: contain;
+}
+.imo_div2{
+    background-image: url(/img/istockphoto-1364075546-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.col_div{
+background-color: rgba(238, 238, 238, 0.758);
+}
+
+
+
+
+
+
+
+    
+    /* Sidebar */
+    .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+    }
+    
+    @media (max-width: 991.98px) {
+    .sidebar {
+    width: 100%;
+    }
+    }
+    .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    
+    .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
